@@ -17,6 +17,6 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls: []
-  - secretName: argocd-stage
-    hosts:
-      - argocd-stage.domainaws.com
+    - secretName: argocd-stage
+      hosts:
+        - argocd-stage.domainaws.com
